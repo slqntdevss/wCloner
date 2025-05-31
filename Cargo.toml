@@ -1,0 +1,11 @@
+[package]
+name = "wCloner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.12.18"
+colored = "3.0.0"
+tokio = { version = "1.0.0", features = ["rt", "rt-multi-thread", "macros"] }
+format-url = "0.6.2"
+regex = "1.11.1"
